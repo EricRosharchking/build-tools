@@ -1,14 +1,11 @@
 # build-tools
 
-jar<--admin\
+Created Maven projects and pom.xml files for maven buils
+The build_maven.bat file contains steps to install the admin.jar and web.war artifacts in your local .m2 repository, before listing down the content of the two result artifacts
 
-			|----services --- utils
+To see the build results, simply run build_maven.bat
 
-war<-- web/
-
-Create Ant+Ivy (Optional), Maven and Gradle build scripts to build the project. Two artifacts – war (for web module) and
-jar (for admin module) should be generated as a result of script running. Also you need to create README file with build
-instructions.
+TODO: create gradle and ant build scripts
 
 Task details:
 
@@ -20,4 +17,4 @@ Repository MUST not contain result artifacts (jar, war).
 -README file should contain instructions to build project via Ant, Maven, Gradle tools. Instructions must contain
 command line to start build project.
 
-Build script should allow test running. Details about how to run tests should be written in README.
+-Build script should allow test running. Details about how to run tests should be written in README.
