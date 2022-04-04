@@ -5,16 +5,4 @@ The build_maven.bat file contains steps to install the admin.jar and web.war art
 
 To see the build results, simply run build_maven.bat
 
-TODO: create gradle and ant build scripts
-
-Task details:
-
-Only one project should be in your repository. Build scripts for different build tools should be in the root directory
-of the project.
-
-Repository MUST not contain result artifacts (jar, war).
-
--README file should contain instructions to build project via Ant, Maven, Gradle tools. Instructions must contain
-command line to start build project.
-
--Build script should allow test running. Details about how to run tests should be written in README.
+Not going to include as of now: gradle and ant build scripts
